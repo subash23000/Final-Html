@@ -1,12 +1,17 @@
 body{
     background-image: url(http://staff.hamk.fi/~tsaksa/temp/background-image.jpg);
+    background-size: cover;
+    margin: ;
 }
+
 
 img{
     width: 50%;
 }
 nav li {
     display: inline;
-    padding: 20px;
+    padding: auto;
     padding-top: 100px;
+    text-align: center;
+
 }
