@@ -13,14 +13,67 @@ header nav {
     gap: 20px;
 }
 
-
-img{
-    width: 50%;
+header nav a {
+    text-decoration: none;
+    font-weight: bold;
 }
-nav li {
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.content {
+    display: flex;
+    max-width: 1200px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.bio {
+    flex: 1;
+    padding: 20px;
+}
+
+.bio h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.bio button {
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-picture {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 8px 8px 0;
+}
+
+footer {
     display: inline;
-    padding: auto;
-    padding-top: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
     text-align: center;
 
 }
