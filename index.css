@@ -4,7 +4,9 @@ body{
     padding: 0;
     background-image: url(http://staff.hamk.fi/~tsaksa/temp/background-image.jpg);
     background-size: cover;
+
 }
+
 
 header nav {
     padding: 10px 20px;
@@ -13,7 +15,8 @@ header nav {
     gap: 20px;
 }
 
-header nav a {
+header nav a{
+    list-style-type: none;
     text-decoration: none;
     font-weight: bold;
 }
@@ -70,7 +73,8 @@ main{
 }
 
 footer {
-    display: inline;
+    display: flex;
+    justify-content: space-around;
     padding: 10px;
     margin-top: 20px;
     font-size: 0.9rem;
