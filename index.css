@@ -11,9 +11,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    /* background-color: bisque; */
 
-    
+
 }
 
 
@@ -26,7 +25,7 @@ header nav {
 
 }
 
-header nav a{
+header nav a, footer div a{
     text-decoration: none;
     font-weight: bold;
     font-size: larger;
@@ -91,8 +90,6 @@ footer {
     font-size: 0.9rem;
     text-align: center;
     font-weight: bold;
-    background-color: bisque;
-    text-decoration: none;
 
 
    
@@ -102,6 +99,4 @@ footer div {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    text-decoration: none;
-    /* background-color: bisque; */
 }
